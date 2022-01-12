@@ -1,0 +1,149 @@
+body {
+    margin-right:30px;
+    background-color: #ECEEF1;
+}
+
+
+
+#header-content {
+    height: 50px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+
+#header-text {
+    font-weight: normal;
+    font-size: 12px;
+    display:flex;
+    flex-direction: column;
+    margin-right: 12px;
+}
+
+#already-account {
+    color: rgb(83, 82, 82);
+}
+
+#forgot {
+    color: #0077C5;
+}
+
+#sign-in-button {
+    color: white;
+    background-color: #0077C5;
+    border-radius: 5px;
+    width: 100px;
+    height: 34px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+#main-logo {
+    display: flex; 
+    justify-content: center;
+    width: 380px;
+    height: 100px;
+}
+
+#form-container {
+    display:flex;
+    flex-direction: column;
+    height: 600px;
+    width: 380px;
+    background-color: white;
+    padding: 30px;
+    border-top: 1px solid #c7c7c7;
+    border-right: 1px solid #c7c7c7;
+    border-left: 1px solid #c7c7c7;
+    border-radius: 2px;
+}
+
+#create-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#create-text {
+    display: flex;
+    justify-content: center;
+    color: #393A3D;
+    line-height: 1.1;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+ 
+#phone-footer {
+    font-size: xx-small;
+}
+
+#create-text-footer-container {
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+    font-size: medium;
+    margin-bottom: 20px;
+}
+
+
+.a-tags {
+    color: #0077C5;
+    font-weight: lighter;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    border-color: #c1c5c8;
+    border: 1px;
+}
+
+#create-account-button {
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 50px;
+    margin-top: 10px;
+    background-color: #0077C5;
+    color: white;
+    border-width: 0px;
+    border-radius: 4px;
+}
+
+#form-footer {
+    font-size: 12px;
+    font-style: italic;
+    color: #757575;
+    line-height: 1.5;
+    text-align: center;
+    font-weight: 500;
+    padding-top: .625rem;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+#phone {
+    margin-bottom: 5px;
+}
+
+#form-container-footer {
+    height: 53px;
+    width: 380px;
+    background-color: #ECEEF1 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #c7c7c7;
+    border-right: 1px solid #c7c7c7;
+    border-left: 1px solid #c7c7c7;
+    font-size: 10px;
+    color: #757575;
+    line-height: 1.5;
+    text-align: center;
+}
